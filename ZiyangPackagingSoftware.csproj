@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="opway.mes.Model">
+      <HintPath>bin\Debug\net6.0-windows7.0\opway.mes.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="PrintHelper">
+      <HintPath>bin\Debug\net6.0-windows7.0\PrintHelper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
